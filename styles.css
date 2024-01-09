@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+/* Header Styles */
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 300px;
+}
+
+.content_left {
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    color: #F9FAF8;
+
+}
+
+.menu_options {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 18px;
+    justify-content: center;
+    list-style: none;
+    color: white;
+    font-weight: 300;
+}
+
+/* Content Section 1 Styles */
+
