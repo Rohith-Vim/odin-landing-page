@@ -1,3 +1,8 @@
+* {
+    outline: solid 1px red;
+}
+
+
 body {
     display: flex;
     flex-direction: column;
@@ -7,10 +12,7 @@ body {
 
 /* Shared Styles */
 
-.content_1,
-.content_2,
-.content_3,
-.content_4 {
+.content_2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,6 +26,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 15px 300px;
+    gap: 70px;
 }
 
 .content_left {
@@ -47,6 +50,9 @@ body {
 /* Content Section 1 Styles */
 
 .content_1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     background-color: #1f2937;
     gap: 70px;
     padding: 100px 300px;
@@ -104,6 +110,7 @@ body {
     font-size: 36px;
     font-weight: 800;
     color: #1f2937;
+    text-align: center;
 }
 
 .content_2_box {
@@ -146,35 +153,48 @@ body {
 
 .content_3 {
     background-color: #E5E7EB;
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content_3_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    padding: 100px 300px;
+    max-width: 900px;
 }
 
 .content_3_quote {
     font-size: 36px;
     font-weight: 300;
-    width: 840px;
 }
 
 .content_3_subtext {
-    align-self: flex-end;
-    padding-right: 70px;
     font-size: 18px;
     font-weight: 800;
+    align-self: flex-end;
+    padding-right: 50px;
 }
 
 /* Content Section 4 Styles */
 
 .content_4 {
-    padding: 100px 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
 }
 
 .content_4_box {
     background-color: #3882F6;
-    width: 900px;
+    max-width: 900px;
     height: 150px;
     border-radius: 10px;
     padding: 0 100px;
+    gap: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -182,6 +202,7 @@ body {
 
 .content_4_left {
     color: #F9FAF8;
+    min-width: 150px;
 }
 
 .content_4_subheading {
